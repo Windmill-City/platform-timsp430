@@ -5,9 +5,9 @@
   "homepage": "http://www.ti.com/lsds/ti/microcontrollers_16-bit_32-bit/msp/overview.page",
   "license": "Apache-2.0",
   "keywords": [
-      "dev-platform",
-      "Texas Instruments",
-      "MSP430"
+    "dev-platform",
+    "Texas Instruments",
+    "MSP430"
   ],
   "engines": {
     "platformio": "^5"
@@ -25,6 +25,9 @@
     "energia": {
       "package": "framework-energiamsp430",
       "script": "builder/frameworks/energia.py"
+    },
+    "native": {
+      "script": "builder/frameworks/native.py"
     }
   },
   "packages": {
